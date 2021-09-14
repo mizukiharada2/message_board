@@ -8,5 +8,12 @@
         <form method="POST" action="${pageContext.request.contextPath}/update">
             <c:import url="_form.jsp" />
         </form>
+        <script>
+        function confirmDestroy(){
+            if(confirm("本当に削除してよろしいですか？"){
+                document.forms[1].submit();}
+            })
+        }
+        </script>
     </c:param>
 </c:import>
